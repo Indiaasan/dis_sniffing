@@ -21,7 +21,7 @@ if os.path.exists("/etc/v2ray-agent/xray/conf"):
                 os.system('/etc/v2ray-agent/xray/xray -confdir /etc/v2ray-agent/xray/conf')
                 os.system('systemctl status xray')
             except:
-                print('重启xray失败，请手动启动mack-a脚本以添加账户的方式重启xray')
+                print('重启xray失败，请手动输入vasma启动脚本以添加账户的方式重启xray')
             print("修改结束...")
             
     else:
